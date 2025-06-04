@@ -1,0 +1,9 @@
+This terraform code is to deploy a simple ec2 instance inside a VPC with all its network components:
+#  - XX Internet Gateway
+#  - XX Public Subnets
+#  - XX Private Subnets
+#  - XX Public and PrivateRoute tables and its Association
+#  - XX Security Groups for Public and Private Subnets
+#  - EIP Addresses for Public Subnets
+#  - XX NAT Gateways in Public Subnets to give Internet access from Private Subnets
+#  - XX EC2 Instances in Public Subnets
